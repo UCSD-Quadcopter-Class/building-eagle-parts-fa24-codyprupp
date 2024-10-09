@@ -140,7 +140,7 @@
 <wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.05" layer="39"/>
 <wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.05" layer="39"/>
 </package>
-<package name="LSM6DS0_IMU">
+<package name="LSM6DSO_IMU">
 <wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.05" layer="51"/>
 <wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.05" layer="51"/>
 <wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.05" layer="51"/>
@@ -220,7 +220,7 @@
 <circle x="-1.27" y="0" radius="4.0986875" width="0.1524" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="95">&gt;Name</text>
 </symbol>
-<symbol name="LSM6DS0_IMU">
+<symbol name="LSM6DSO_IMU">
 <wire x1="-10.16" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="-10.16" y2="-17.78" width="0.1524" layer="94"/>
@@ -303,12 +303,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM6DS0_IMU" prefix="U">
+<deviceset name="LSM6DSO_IMU" prefix="U">
 <gates>
-<gate name="G$1" symbol="LSM6DS0_IMU" x="0" y="0"/>
+<gate name="G$1" symbol="LSM6DSO_IMU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-LSM6DSO_IMU" package="LSM6DS0_IMU">
+<device name="-LSM6DSO_IMU" package="LSM6DSO_IMU">
 <connects>
 <connect gate="G$1" pin="CS" pad="12"/>
 <connect gate="G$1" pin="GND" pad="6 7"/>
